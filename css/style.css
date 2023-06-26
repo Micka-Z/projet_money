@@ -1,0 +1,66 @@
+
+
+/* FONTS */
+@font-face {
+    font-family: 'OpenSans';
+    src:     url(‘/fonts/OpenSans-Regular.ttf’) format(‘truetype’)
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src:     url(‘/fonts/Oswald-Regular.ttf’) format(‘truetype’)
+}
+
+@font-face {
+    font-family: 'Pompiere';
+    src:     url(‘/fonts/Pompiere-Regular.ttf’) format(‘truetype’)
+}
+
+/* Basic element */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+} 
+
+body {
+    color: #212121;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+header > a {
+    color: #ffffff;
+}
+
+li > a:hover {
+    color: #769687;
+}
+
+.form-signin {
+    max-width: 360px;
+}
+
+input {
+    background-color: #ffffff;
+}
+
+
+#div-valide, #div-refuse {
+    display: none;
+}
+
+#div-cache {
+    display: none;
+}
